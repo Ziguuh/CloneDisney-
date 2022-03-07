@@ -1,0 +1,158 @@
+@font-face{
+
+	font-family: "Avenir Roman";
+	src: url("../avenir-roman.ttf") format("truetype");
+}
+
+body{	
+	background: url("../img/d.jpg") no-repeat top center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+.btn{
+	font-family: "Avenir Roman", sans-serif;
+	font-size: 18px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	padding: 16px 16px;
+	border: 1px solid whitesmoke;
+	border-radius: 3px;
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 32px;
+	transition: 0.2s;
+
+}
+.logo{
+	max-width: 400px;
+	display: block;
+	width: 100;
+height: auto;
+margin-bottom: 2vw;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+	
+}
+.hero-content{
+	padding-left: 60px;
+	box-sizing: border-box;
+	padding-bottom: 200px;
+	margin-top: 180px;
+}
+
+h3{
+	font-family: "Avenir Roman", sans-serif;
+	line-height: 38px;
+	font-size: 28px;
+	color: white;
+	text-align: center;
+	margin-bottom: 22px;
+	margin-top: 50px;	
+	letter-spacing: normal;
+	margin-left: 45px;
+
+}
+.precoC{
+	display: flex;
+	color: white;
+	
+}
+
+.precoC button{
+	padding: 20.5px 33px;           
+    color: #f9f9f9;
+    background: #0063e5;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+   
+    vertical-align: middle;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease 0s;
+    font-size: 18px;    
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;    
+    width: 135%;
+
+    margin-right: 200px;
+    
+    font-family: "Avenir Roman", sans-serif;
+}
+.precoC button:hover{
+	background:#016cf9;
+
+}
+.footnote {
+    font-size: 12px;
+    line-height: 22px;
+    font-family: "Avenir Roman", sans-serif;
+    padding-left: 25px;
+}
+p {
+    margin-bottom: 20px;
+    margin: 0 0 24px;
+    display: block;
+    color: silver;
+    
+    font-family: "Avenir Roman", sans-serif;
+}
+.grid-item {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 12px;
+    
+
+}
+.center {
+    text-align: center;
+}
+.hero .content {
+    width: 200%;
+    z-index: 2;
+}
+.grid-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    justify-content: space-around;
+    margin: 0 -12px;
+}
+
+.assine{
+font-family: "Avenir Roman", sans-serif;
+	    font-size: 20px;
+    line-height: 30px;
+}
+.hero .content>:last-child {
+    margin-bottom: 0;
+}
+.precoC .hero ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.medium{
+	font-family: "Avenir Roman", sans-serif;
+	font-size: 18px;
+}
